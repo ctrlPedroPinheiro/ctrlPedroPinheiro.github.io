@@ -19,29 +19,139 @@
         </nav>    
     </header>
     <div class="prinicpal-conteiner">
-        <div>
-            <p id="inicio">
-                Bem vindo ao meu portifólio, aqui você irá encontrar toda aplicação de minhas competências
-            </p>
-        </div>
-        <div id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <p class="saudacao">Olá, eu sou</p>
+                <h2 class="nome-destaque">Pedro Pinheiro</h2>
+                <h3 class="cargo">Desenvolvedor Backend</h3>
                 
-            </p>    
-        </div>
+                <p class="resumo">
+                    Transformo matemática e lógica em soluções de software robustas. Tenho conhecimento na construção de arquiteturas distribuídas, algoritmos de otimização e inteligência artificial, criando desde o backend até a lógica de dados mais complexa.
+                </p>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="sobre-container">
+                <div class="sobre-texto">
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Sou um desenvolvedor focado em construir soluções eficientes e arquiteturas escaláveis. Com uma base sólida em <strong>Java</strong>, minha experiência transita entre o desenvolvimento de software tradicional — como a criação de sistemas web com Spring Boot — e áreas matemáticas avançadas da computação.
+                    </p>
+                    <p>
+                        Acredito que um bom profissional não apenas utiliza frameworks, mas entende a lógica subjacente. Por isso, aplico meus conhecimentos em Pesquisa Operacional desenvolvendo algoritmos de otimização (como BRKGA e ILS) e exploro o mundo da Inteligência Artificial implementando Redes Neurais do zero.
+                    </p>
+                    <p>
+                        Meu objetivo é sempre buscar a intersecção entre engenharia de software e inteligência de dados para resolver problemas complexos e entregar valor real.
+                    </p>
+                    
+                    <div class="skills-container">
+                        <span class="skill-badge">Java 17</span>
+                        <span class="skill-badge">Spring Boot</span>
+                        <span class="skill-badge">Inteligência Artificial</span>
+                        <span class="skill-badge">Pesquisa Operacional</span>
+                        <span class="skill-badge">Sistemas Distribuídos</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">HTML & CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div id="repositorios">
+
             <h2>Repositórios</h2>
             <p>
-                
-            </p>    
-        </div>
-        <div id="contato">
-            <h2>Contato</h2>
+                Meu foco principal de desenvolvimento tem sido em Java, construindo desde sistemas web robustos e arquiteturas distribuídas até a implementação de algoritmos complexos do zero. Acredito que um bom desenvolvedor não apenas utiliza ferramentas prontas, mas entende a matemática e a lógica por trás delas.
+            </p>
             <p>
-                
-            </p>    
+                Nos projetos abaixo, você encontrará uma intersecção entre desenvolvimento de software tradicional e computação avançada, divididos nas seguintes áreas:
+                <ul>
+                    <li>Inteligência Artificial & Dados</li>
+                    <li>Otimização & Pesquisa Operacional</li>
+                    <li>Backend & Sistemas Distribuídos</li>
+                </ul>
+            </p>
+            <p>
+                Sinta-se à vontade para explorar os resumos abaixo e acessar os repositórios para conferir o código-fonte e a documentação detalhada de cada solução!
+            </p>
+
+            <div class="project-grid">
+
+                <a href="https://github.com/ctrlPedroPinheiro/Projeto-Consignado" target="_blank" class="project-card">
+                    <h3 >Automação de Consignados CAIXA</h3>
+                    <p class="tech-stack">Java, HTML, CSS</p>   
+                    <p>
+                        Ferramenta desenvolvida para otimizar e automatizar a análise de relatórios bancários de empréstimos consignados em convênio com a Caixa Econômica Federal. O sistema processa dados brutos e facilita a validação de margens de forma rápida e visual.
+                    </p> 
+                </a>
+
+                <a href="https://github.com/AlvaroIFF/MarketplaceArtesoes" target="_blank" class="project-card">
+                    <h3>Marketplace de Artesãos</h3>
+                    <p class="tech-stack">Java 17, Spring Boot, Hibernate, H2 Database, Thymeleaf, HTML5, CSS3</p>   
+                    <p>
+                        Plataforma de e-commerce desenvolvida para a disciplina de Programação Web. O sistema atua como um marketplace que conecta artesãos (que possuem um dashboard para gerenciar suas lojas e produtos) e clientes (que podem navegar pelas vitrines, usar carrinho de compras e finalizar pedidos). O backend foi construído com a arquitetura Spring (Web, Data JPA) e renderização dinâmica via Thymeleaf.
+                    </p>
+                </a>
+
+                <a href="https://github.com/ctrlPedroPinheiro/Sistemas-Distribuidos" target="_blank" class="project-card">
+                    <h3>Projetos em Sistemas Distribuídos</h3>
+                    <p class="tech-stack">Java, HTML, RMI</p>   
+                    <p>
+                        Repositório prático focado em arquiteturas cliente-servidor e comunicação entre processos. Inclui a implementação de invocação de métodos remotos utilizando Java RMI e a estruturação de um serviço distribuído para o processamento de cálculos financeiros.
+                    </p> 
+                </a>
+
+
+                <a href="https://github.com/ctrlPedroPinheiro/Reconhecimento-de-Digitos" target="_blank" class="project-card">
+                    <h3>Reconhecimento de Dígitos (Rede Neural MLP)</h3>
+                    <p class="tech-stack">Java</p>   
+                    <p>
+                        Implementação de uma Rede Neural Artificial do tipo Multi-Layer Perceptron (MLP) construída totalmente do zero. O projeto foca nos fundamentos matemáticos e lógicos da IA de baixo nível para treinar o sistema a reconhecer padrões de dígitos binários (0 e 1).
+                    </p> 
+                </a>
+
+                <a href="https://github.com/ctrlPedroPinheiro/BRKGA-Mochila-Binaria" target="_blank" class="project-card">
+                    <h3>Otimização: BRKGA para Mochila Binária</h3>
+                    <p class="tech-stack">Java</p>   
+                    <p>
+                        Aplicação de algoritmos evolutivos na área de Pesquisa Operacional. Este projeto resolve o clássico Problema da Mochila Binária utilizando a meta-heurística BRKGA (Biased Randomized-Key Genetic Algorithm), focando em maximizar valores sob restrições rígidas de capacidade.
+                    </p> 
+                </a>
+
+                <a href="https://github.com/ctrlPedroPinheiro/PO-T2-Iterated-Local-Search" target="_blank" class="project-card">
+                    <h3>Otimização: ILS para Caixeiro Viajante (TSP)</h3>
+                    <p class="tech-stack">Java</p>   
+                    <p>
+                        Algoritmo desenvolvido para encontrar rotas de menor custo no Problema do Caixeiro Viajante. A solução combina uma abordagem inicial gulosa com a meta-heurística Iterated Local Search (ILS) e o refinamento de rotas via busca local 2-opt.
+                    </p> 
+                </a>
+            </div>
         </div>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p class="contato-desc">
+                Estou sempre aberto a novas oportunidades, parcerias e desafios tecnológicos. Sinta-se à vontade para me mandar uma mensagem, seja para falar sobre código, propostas de trabalho ou apenas para trocar uma ideia!
+            </p>
+
+            <div class="contato-grid">
+                <a href="mailto:pedro.pinheiroa10@gmail.com" class="contato-card">
+                    <div class="contato-icone">✉️</div>
+                    <h3>E-mail</h3>
+                    <p>pedro.pinheiroa10@gmail.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/pedro-de-araújo/" target="_blank" class="contato-card">
+                    <div class="contato-icone">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Pedro de Araújo</p>
+                </a>
+
+                <a href="https://github.com/ctrlPedroPinheiro" target="_blank" class="contato-card">
+                    <div class="contato-icone">💻</div>
+                    <h3>GitHub</h3>
+                    <p>Acesse meus repositórios</p>
+                </a>
+            </div>
+        </section>
     </div>
     <footer>
         
